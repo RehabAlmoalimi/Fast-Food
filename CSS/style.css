@@ -1,0 +1,205 @@
+ /* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+    background-color: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #ff6f00;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Main Sections ===== */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ===== Section Headings ===== */
+.welcome h2,
+.about-section h2,
+.menu-section h2,
+.deals-section h2 {
+    margin-bottom: 15px;
+    color: #ff6f00;
+    text-align: center;
+}
+
+/* ===== Forms ===== */
+form {
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #e65c00;
+}
+
+/* ===== Aside ===== */
+aside {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+aside a {
+    color: #ff6f00;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Lists ===== */
+ul {
+    /* يلغي نقاط القاىمه */
+    list-style: none;
+    margin: 10px 0 20px;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    background-color: #fff3e0;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+/* ===== Tables ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+ 
+table th, table td {
+    padding: 8px 10px;
+    border: 1px solid rgb(224, 150, 54);
+    text-align: left;
+}
+
+table th {
+    background-color: #f39316;
+}
+
+table img {
+    width: 70px;
+    border-radius: 5px;
+    background-color:white ;
+}
+/* ===== Drinks & Daily Deals Cards ===== */
+.juice-gallery, .deals-section {
+    /* تخليهم بشكل افقي */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.juice-item, .deal-card {
+    background-color: #fff3e0;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 180px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+}
+
+.juice-item:hover{
+    transform: translateY(-5px);
+}
+
+.juice-item img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.juice-item p{
+    font-weight: bold;
+    color: #ff6f00;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #ff6f00;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+/* ===== Responsive ===== */
+@media(max-width: 768px){
+     .juice-gallery, .deals-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}
