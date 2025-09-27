@@ -1,4 +1,4 @@
- /* ===== Reset ===== */
+ /* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,14 +6,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* ===== Body ===== */
+/*Body */
 body {
     background-color: #fff8f0;
     color: #333;
     line-height: 1.6;
 }
 
-/* ===== Header ===== */
+/*Header */
 header {
     background-color: #ff6f00;
     color: white;
@@ -37,14 +37,14 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* ===== Main Sections ===== */
+/*Main Section*/
 main {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
 }
 
-/* ===== Section Headings ===== */
+/*Section Headings*/
 .welcome h2,
 .about-section h2,
 .menu-section h2,
@@ -54,7 +54,7 @@ main {
     text-align: center;
 }
 
-/* ===== Forms ===== */
+/*Forms*/
 form {
     background-color: #fff3e0;
     padding: 20px;
@@ -90,7 +90,7 @@ form button:hover {
     background-color: #e65c00;
 }
 
-/* ===== Aside ===== */
+/*Aside*/
 aside {
     margin-top: 15px;
     font-size: 0.9rem;
@@ -106,7 +106,7 @@ aside a:hover {
     text-decoration: underline;
 }
 
-/* ===== Lists ===== */
+/*Lists*/
 ul {
     /* يلغي نقاط القاىمه */
     list-style: none;
@@ -121,7 +121,7 @@ ul li {
     border-radius: 5px;
 }
 
-/* ===== Tables ===== */
+/*Tables*/
 table {
     width: 100%;
     border-collapse: collapse;
@@ -143,10 +143,10 @@ table img {
     border-radius: 5px;
     background-color:white ;
 }
-/* ===== Drinks & Daily Deals Cards ===== */
+/*Drinks & Daily Deals Cards*/
 .juice-gallery, .deals-section {
     /* تخليهم بشكل افقي */
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -179,7 +179,7 @@ table img {
     color: #ff6f00;
 }
 
-/* ===== Footer ===== */
+/*Footer*/
 footer {
     background-color: #ff6f00;
     color: white;
@@ -189,7 +189,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* ===== Responsive ===== */
+/*Responsive*/
 @media(max-width: 768px){
      .juice-gallery, .deals-section {
         flex-direction: column;

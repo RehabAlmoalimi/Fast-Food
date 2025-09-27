@@ -14,7 +14,7 @@ if (document.body.classList.contains("login-page")) {
 // رسالة ترحيبية عند الدخول لصفحة home
 if (document.body.classList.contains("home-page")) {
     window.addEventListener("DOMContentLoaded", () => {
-        alert("Welcome to Fast Food Store! 🍔🍟");
+        alert("Welcome to Fast Food Store! ");
     });
 }
 
